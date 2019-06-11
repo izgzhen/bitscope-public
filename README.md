@@ -1,6 +1,6 @@
 # bitscope-public
 
-![Paper](https://izgzhen.github.io/bitscope-public/paper.pdf)
+[Paper](https://izgzhen.github.io/bitscope-public/paper.pdf)
 
 cite:
 
