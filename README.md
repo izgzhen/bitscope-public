@@ -1,5 +1,7 @@
 # BitScope
 
+Datasets: https://drive.google.com/drive/folders/130oEBlJ7iPzXAkVVwFL1a8CHmv4SdnDv?usp=sharing
+
 [Paper (PDF)](https://izgzhen.github.io/bitscope-public/paper.pdf)
 
 Cite:
