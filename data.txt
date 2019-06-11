@@ -1,0 +1,30 @@
+On-chain dataset
+===========================================================================
+
+Adapted from http://www.vo.elte.hu/bitcoin/README.txt
+
+- addresses[1,2].txt 	BitCoin address IDs, 124857865 rows, 2 columns:
+	addrID 	integer id used in this database (continuous range [1,124857865], the special value addrID == 0 is used for invalid / missing addresses)
+	addr  	string representation of the address (alphanumeric, maximum 35 characters; note that the IDs are NOT ordered by the addr)
+
+- tx[1,2].txt 	enumaration of all transactions, 108996613 rows, 4 columns:
+	txID 	transaction ID (same as in the txhash.txt file)
+	txhash 	ransaction hash used in the blockchain (64 hex characters)
+	txtime 		timestamp
+
+- txin[1,2].txt 	list of all transaction inputs (sums sent by the users), 287902875 rows, 4 columns:
+	txID 	transaction ID (same as in the txhash.txt file)
+	i 		input ID (i.e. an integer identifying individual inputs, a txID -- i pair will appear only once in this file)
+	addrID 	sending address (same as in the addresses.txt file)
+	value 	integer sum in Satoshis (1e-8 BTC -- note that the value can be over 2^32, use 64-bit integers when parsing)
+
+- txout[1,2].txt 	list of all transaction outputs (sums received by the users), 322855563 rows, 4 columns:
+	txID 	transaction ID (same as in the txhash.txt file)
+	i 		output ID (i.e. an integer identifying individual outputs, a txID -- i pair will appear only once)
+	addrID 	receiving address (same as in the addresses.txt file)
+	value 	integer sum in Satoshis (1e-8 BTC -- note that the value can be over 2^32, use 64-bit integers when parsing)
+
+Off-chain dataset
+===========================================================================
+
+offchain.csv
