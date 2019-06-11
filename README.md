@@ -1,13 +1,12 @@
-# bitscope-public
+# BitScope
 
-[Paper](https://izgzhen.github.io/bitscope-public/paper.pdf)
+[Paper (PDF)](https://izgzhen.github.io/bitscope-public/paper.pdf)
 
-cite:
+Cite:
 
 ```
 @misc{bitscope,
-  title = {{BitScope: Scaling Bitcoin Address De-anonymization using
-Multi-Resolution Clustering}},
+  title = {BitScope: Scaling Bitcoin Address De-anonymization using Multi-Resolution Clustering},
   howpublished = "\url{https://izgzhen.github.io/bitscope-public/paper.pdf}",
   year = {2019},
 }
