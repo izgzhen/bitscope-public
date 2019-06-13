@@ -11,6 +11,7 @@ Cite:
 @misc{bitscope,
   title = {BitScope: Scaling Bitcoin Address De-anonymization using Multi-Resolution Clustering},
   howpublished = "\url{https://izgzhen.github.io/bitscope-public/paper.pdf}",
+  author = "Zhang, Zhen and Zhou, Tianyi and Xie, Zhitong",
   year = {2019},
 }
 ```
