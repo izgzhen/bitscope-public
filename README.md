@@ -1,6 +1,6 @@
 # BitScope
 
-- Datasets: [Google Drive](https://drive.google.com/drive/folders/130oEBlJ7iPzXAkVVwFL1a8CHmv4SdnDv?usp=sharing)
+- Datasets: [Google Drive](http://bit.ly/2KCaMK8) (Submit an issue if the link doesn't work for you)
 - [Related work](https://github.com/izgzhen/bitscope-public/blob/master/related-work.md)
 - [Dataset Description](https://izgzhen.github.io/bitscope-public/data.txt)
 - [Paper (PDF)](https://izgzhen.github.io/bitscope-public/paper.pdf)
